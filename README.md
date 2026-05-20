@@ -141,6 +141,17 @@ When the task is ready (`status: "ready"`), `solution` contains:
 |-------|------|-------|
 | `token` | `string` | The MTCaptcha verification token. Submit on the target site exactly where MTCaptcha expects it. |
 
+### Example
+
+```json
+{
+  "status": "ready",
+  "solution": {
+    "token": "v1(<MTPublic key>,<verified-token payload>)"
+  }
+}
+```
+
 ### How to use the result
 
 Set the returned token in the MTCaptcha verification field on the target site's form.
