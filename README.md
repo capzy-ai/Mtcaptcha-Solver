@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capzy.ai/capzy-logo.svg" alt="Capzy" width="220" />
+<img src="https://capzy.ai/capzy-icon.png" alt="Capzy" width="96" />
 
 # MTCaptcha Solver
 
@@ -141,17 +141,6 @@ When the task is ready (`status: "ready"`), `solution` contains:
 |-------|------|-------|
 | `token` | `string` | The MTCaptcha verification token. Submit on the target site exactly where MTCaptcha expects it. |
 
-### Example
-
-```json
-{
-  "status": "ready",
-  "solution": {
-    "token": "v1(<MTPublic key>,<verified-token payload>)"
-  }
-}
-```
-
 ### How to use the result
 
 Set the returned token in the MTCaptcha verification field on the target site's form.
@@ -173,6 +162,24 @@ Set the returned token in the MTCaptcha verification field on the target site's 
 Capzy solves 25+ captcha types. Full catalog at
 [capzy.ai/solvers](https://capzy.ai/solvers). Each type has its own
 solver repo on [github.com/capzy-ai](https://github.com/capzy-ai).
+
+## The Capzy platform
+
+Capzy is web access infrastructure for modern automation. Beyond captcha solving:
+
+| Product | What it does |
+|---------|--------------|
+| **[Solver API](https://capzy.ai/solvers)** | Solve 25+ captcha types through one HTTP API. |
+| **[Cloud Browser](https://capzy.ai/browser)** | Real remote Chrome over CDP / WebSocket, billed per GB. |
+| **[Fingerprint API](https://capzy.ai/fingerprints)** | Coherent, authentic browser fingerprints on demand. |
+| **[Proxies API](https://capzy.ai/proxies)** | Global proxy egress with simple per-GB pricing. |
+| **[Web Scraper API](https://capzy.ai/web-scraper)** | Fetch, render, bypass anti-bot, and extract in one call. |
+
+One API key and one wallet balance across every product.
+
+## Keywords
+
+`mtcaptcha solver`, `mtcaptcha captcha solver`, `mtcaptcha bypass`, `mtcaptcha api`, `solve mtcaptcha`, `mtcaptcha solving service`, `captcha solver`, `captcha solving api`, `automated captcha solver`, `captcha bypass api`
 
 ## License
 
